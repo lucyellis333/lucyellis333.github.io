@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+/* BRINGING ELEMENTS FORWARD SO GIFS DONT LOAD ON TOP! */
+button {
+z-index: 5;
+}
+
+input {
+  z-index: 5;
+}
+
+h2 {
+  z-index: 5;
+}
+
+.frame {
+  width: 232px;
+  height: 133px;
+  z-index: 5;
+  left: 35px;
+  top: 25px;
+  position: absolute;
+}
+
+.box{
+  width: 230px;
+  height: 131px;
+  position: absolute;
+  left: 35px;
+  top: 25px;
+  background-color: rgb(244, 194, 194);
+  z-index: 3;
+  }
